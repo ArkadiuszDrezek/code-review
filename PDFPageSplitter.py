@@ -1,10 +1,10 @@
-from PyPDF2 import PdfMerger
+ifrom PyPDF2 import PdfMerger
 import csv,os
 
 
 
-input_directory = "C:\\116\\Input"
-input_csv_file_name = "116.csv"
+input_directory = "C:\\117\\Input"
+input_csv_file_name = "117.csv"
 input_csv_path = os.path.join(input_directory, input_csv_file_name)
 
 with open(input_csv_path, newline="") as sp_numer_file:
